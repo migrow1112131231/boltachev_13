@@ -203,7 +203,7 @@ def update_card(count, cont):
     delta_gdp=round((gdp15-gdp14)/gdp14, 2)*100
 
     if delta_gdp > 0:
-        delta_gdp_sign = "▲"  # Unicode symbol for upward pointing triangle
+        delta_gdp_sign = "▲"
     else:
         delta_gdp_sign = "▼"
 

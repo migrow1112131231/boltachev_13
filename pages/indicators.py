@@ -3,7 +3,6 @@ import dash_bootstrap_components as dbc
 import plotly.express as px
 from data import df
 
-# Допустим у вас тот же DataFrame 'df'
 layout = html.Div([
     dcc.Dropdown(
         id='continent-dropdown',
@@ -32,7 +31,6 @@ def update_graphs(selected_continent, selected_years):
 
     graphs = []
 
-    # Определение словаря для перевода индикаторов на русский
     rus_indicators = {
         'Life expectancy': 'Продолжительность жизни',
         'Population': 'Население',
